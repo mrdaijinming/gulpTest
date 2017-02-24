@@ -71,7 +71,7 @@ gulp.task('copyimg', function() {
                 .pipe(less())
                 .pipe(gulp.dest('./dist/css')) //拷背压缩后的路径  
                 .pipe(notify({
-                    message: 'less task complete'
+                    message: 'less task complete' 
                 }));
         });
         //考背多个路径下的文件
