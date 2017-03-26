@@ -5,5 +5,5 @@ function alert1() {
      }
      alert3();
 }
-
+alert1()
 module.exports = alert1;
