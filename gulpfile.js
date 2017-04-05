@@ -1,17 +1,13 @@
 // 载入外挂  
 var gulp = require('gulp'),
     minifycss = require('gulp-minify-css'), //压缩CSS  
-    uglify = require('gulp-uglify'),
+    uglify = require('gulp-uglify'),//使用uglify进行压缩
     imagemin = require('gulp-imagemin'),
-    rename = require('gulp-rename'),
-    clean = require('gulp-clean'),
+    rename = require('gulp-rename'),//重命名    
     concat = require('gulp-concat'),
     notify = require('gulp-notify'),
-    cache = require('gulp-cache'),
     livereload = require('gulp-livereload'),
     //  htmlmin = require('gulp-htmlmin'),  
-    autoprefixer = require('gulp-autoprefixer');
-var browserify = require('gulp-browserify');
 var watch = require('gulp-watch');
 //sass,less 将sass,less文件转为css文件
 var sass = require('gulp-sass');
